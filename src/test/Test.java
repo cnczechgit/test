@@ -1,16 +1,17 @@
 package test;
 
 /**
- * 
+ * @author Christian Czech
  */
 public class Test {
 
-    /** */
+    /** First field */
     private String name = "Test";
 
     /**
      * 
-     * @return
+     * @return gets the name of the class
+     * @since 1.0
      */
     public String getName() {
         return name;
